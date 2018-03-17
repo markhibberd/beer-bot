@@ -1,5 +1,5 @@
 .PHONY: publish
 
 publish: Dockerfile
-	docker build -t charleso/beer-bot .
-	docker push charleso/beer-bot
+	docker build -t markhibberd/beer-bot .
+	docker push markhibberd/beer-bot
